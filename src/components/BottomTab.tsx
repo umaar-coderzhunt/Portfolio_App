@@ -18,7 +18,8 @@ const BottomTab = () => {
         tabBarInactiveTintColor: 'gray',
         headerShown: false,
         tabBarStyle: {
-          paddingTop: 10,
+          paddingBottom: 10,
+          paddingTop: 6,
           backgroundColor: isDarkTheme === 'light' ? '#DCDCDC' : '#333333',
         },
       })}>

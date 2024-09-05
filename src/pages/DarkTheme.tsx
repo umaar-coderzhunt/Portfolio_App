@@ -14,7 +14,7 @@ const DarkTheme = () => {
       className="flex-1 items-center justify-center dark:bg-slate-800">
       <StyledText
         selectable={false}
-        className="dark:text-white text-lg font-bold">
+        className="text-black dark:text-white text-lg font-bold">
         {`Try clicking me! ${colorScheme === 'dark' ? '🌙' : '🌞'}`}
       </StyledText>
     </StyledPressable>
